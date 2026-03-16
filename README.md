@@ -1,7 +1,7 @@
 # Battleship_V4
 Battleship_Game
 
-# Battleship V7 - Juego de Batalla Naval en Clases (Python)
+<img src="img/battleship.jpg" alt="Battleship" width="600">
 
 ## Descripción
 Implementación orientada a objetos del clásico Battleship usando NumPy para tableros 10x10. El jugador compite contra una IA "Terminator". 
