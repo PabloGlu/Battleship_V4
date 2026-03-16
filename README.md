@@ -1,7 +1,7 @@
 # Battleship_V4
 Battleship_Game
 
-<img src="img/battleship.jpg" alt="Battleship" width="600">
+<img src="img/battleship.jpg" alt="Battleship" width="400">
 
 ## Descripción
 Implementación orientada a objetos del clásico Battleship usando NumPy para tableros 10x10. El jugador compite contra una IA "Terminator". 
