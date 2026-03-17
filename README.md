@@ -4,7 +4,7 @@ Battleship_Game
 <img src="img/battleship.jpg" alt="Battleship" width="400">
 
 ## Descripción
-Implementación orientada a objetos del clásico Battleship usando NumPy para tableros 10x10. El jugador compite contra una IA "Terminator". 
+Implementación orientada a objetos del clásico Battleship usando NumPy para tableros 10x10. El jugador compite contra un "Terminator". 
 Cada barco se guarda como objeto único de la clase Barco, permitiendo rastrear toques individuales y anunciar hundimientos cuando todos sus segmentos son impactados.
 
 ## Características Principales
