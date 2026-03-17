@@ -21,7 +21,6 @@ def print_tablero(tablero, titulo="Tablero"):
     print(f"\n{'*'*35}")
     print(f"  {titulo}")
     print(f"{'*'*35}")
-    # Cabecera de columnas
     print("    " + "  ".join(str(i) for i in range(tablero.shape[1])))
     for i, fila in enumerate(tablero):
         fila_str = f" {i} |"
