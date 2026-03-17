@@ -1,5 +1,3 @@
-import import_ipynb
-
 import Battleship_V7_class as bs
 
 import time
