@@ -2,7 +2,6 @@
 
 import numpy as np
 import random
-import time
 from colorama import init, Fore, Back, Style
 
 init(autoreset=True)  # Resetea el color automáticamente tras cada print
