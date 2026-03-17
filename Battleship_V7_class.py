@@ -18,9 +18,9 @@ def print_tablero(tablero, titulo="Tablero"):
         '_':  Back.CYAN   + Fore.BLUE    + ' _ ' + Style.RESET_ALL,
     }
 
-    print(f"\n{'='*35}")
+    print(f"\n{'*'*35}")
     print(f"  {titulo}")
-    print(f"{'='*35}")
+    print(f"{'*'*35}")
     # Cabecera de columnas
     print("    " + "  ".join(str(i) for i in range(tablero.shape[1])))
     for i, fila in enumerate(tablero):
