@@ -322,6 +322,7 @@ class Machine:
             for barco in self.barcos_m1:
                 if coordenada in barco.coordinates:
                         barco.hit(coordenada)
+                        barco.check_sunked()
         elif tablero_def[coordenada] == "X" or tablero_def[coordenada] == "_":
             print("Pobre humano")
         else:
