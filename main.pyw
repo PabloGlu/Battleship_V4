@@ -3,7 +3,6 @@ from tkinter import messagebox
 from PIL import ImageTk, Image 
 import sys
 import subprocess
-import sys
 import os
 
 class PantallaInicial:
