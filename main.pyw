@@ -88,22 +88,22 @@ class PantallaInicial:
 
        
     def iniciar_juego_manual_dificil(self):
-        messagebox.showinfo("¡Listo!", "¡Juego iniciado!\n")
+        messagebox.showinfo("¡Juego iniciado!\n")
         ruta_juego = os.path.join(os.path.dirname(__file__), "Battleship_Test_Manual_V3_Class_Hard.py")
         subprocess.Popen([sys.executable, ruta_juego]) 
 
     def iniciar_juego_manual_facil(self):
-        messagebox.showinfo("¡Listo!", "¡Juego iniciado, pero que facil!\n")
+        messagebox.showinfo("¡Juego iniciado, pero que facil!\n")
         ruta_juego = os.path.join(os.path.dirname(__file__), "Battleship_Test_Manual_V2_Class.py")
         subprocess.Popen([sys.executable, ruta_juego]) 
     
     def iniciar_juego_semi(self):
-        messagebox.showinfo("¡Listo!", "¡Semi relax!\n")
+        messagebox.showinfo("¡Semi relax!\n")
         ruta_juego = os.path.join(os.path.dirname(__file__), "Battleship_Test_Semi.py")
         subprocess.Popen([sys.executable, ruta_juego]) 
     
     def iniciar_juego_auto(self):
-        messagebox.showinfo("¡Listo!", "¡Juego facil, automatico, solo contempla la batalla!\n")
+        messagebox.showinfo("¡Juego facil, automatico, solo contempla la batalla!\n")
         ruta_juego = os.path.join(os.path.dirname(__file__), "Battleship_Test.py")
         subprocess.Popen([sys.executable, ruta_juego]) 
 
@@ -125,7 +125,6 @@ class PantallaInicial:
     def run(self):
         self.root.mainloop()
 
-# ¡Ejecutar!
 if __name__ == "__main__":
     app = PantallaInicial()
     app.run()
