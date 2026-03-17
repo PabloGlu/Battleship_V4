@@ -8,15 +8,7 @@ init(autoreset=True)  # Resetea el color automáticamente tras cada print
 
 
 def print_tablero(tablero, titulo="Tablero"):
-    """
-    Imprime un tablero numpy con colores:
-      ' '  → fondo azul (agua vacía)
-      'O'  → verde (barco intacto)
-      'X'  → rojo (barco tocado/hundido)
-      'H'  → rojo (impacto registrado en tablero de ataque)
-      'W'  → azul oscuro (agua ya disparada)
-      '_'  → azul oscuro (agua ya disparada, variante)
-    """
+
     CELDA = {
         ' ':  Back.BLUE   + Fore.BLUE    + ' ~ ' + Style.RESET_ALL,
         'O':  Back.GREEN  + Fore.WHITE   + ' O ' + Style.RESET_ALL,
@@ -401,9 +393,6 @@ class Barco:
         self.hits = 0
         self.sunked = False
         self.name = self.lenght_to_name[self.lenght]
-
-    def create_boat (self, lenght):
-        setattr(lenght)
 
     def add_coordinates(self, coordinate):
         self.coordinates.append(coordinate)
