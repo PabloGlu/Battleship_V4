@@ -11,7 +11,7 @@ m1 = bs.Machine()
 tab_def_p1 = bs.Player.create_p1_def(p1)
 tab_def_m1 = bs.Machine.create_m1_def(m1)
 
-print(Fore.CYAN + "\n  === INICIO DE PARTIDA ===" + Style.RESET_ALL)
+print(Fore.CYAN + "\n  *** INICIO DE PARTIDA ***" + Style.RESET_ALL)
 print()
 print(Fore.WHITE  + "  Jugador  vs  Terminator" + Style.RESET_ALL)
 print(Fore.YELLOW + "  Tablero 10x10  ·  6 barcos por bando" + Style.RESET_ALL)
