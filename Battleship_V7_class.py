@@ -368,9 +368,9 @@ class Machine:
         """
         Función de rendición: genera dos números aleatorios 0-99 y retorna True solo si ambos son 1 (probabilidad ~1%), permitiendo que la máquina se rinda aleatoriamente.
         """
-        lucky_num1 = random.randint(0, 99) # Probabilidad del 1%
+        lucky_num1 = random.randint(0, 99) 
         lucky_num2 = random.randint(0, 99)
-        if lucky_num1 == lucky_num2:
+        if lucky_num1 == lucky_num2: # Probabilidad del 1%
             return True
         return False
 
