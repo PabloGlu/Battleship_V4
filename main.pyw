@@ -19,7 +19,6 @@ class PantallaInicial:
             self.bg_img = ImageTk.PhotoImage(imagen)
             self.bg_label = tk.Label(self.root, image=self.bg_img)
             self.bg_label.place(x=0, y=0, relwidth=1, relheight=1)
-            # self.bg_color = "#0a1d37"  # ← color de fallback, úsalo en widgets
         except:
             print("Imagen no encontrada, fondo azul")
             self.root.configure(bg="#0a1d37")
@@ -44,7 +43,6 @@ class PantallaInicial:
                         bg="#0a1d37")
         subtitulo.place(relx=0.5, y=90, anchor="center")
 
-        # Botones centrados con place
         btn_new_hard = tk.Button(self.root, text="Dificil",
                                 font=("Arial", 12, "bold"), bg="#4d0447", fg="white",
                                 width=10, height=2, relief="raised", bd=3,
@@ -113,7 +111,7 @@ class PantallaInicial:
         messagebox.showinfo("Instrucciones",
                            "1. Tienes 3 modos de juego\n"
                            "2. El modo AUTO juega maquina contra maquina, solo tienes que relajarte \n"
-                           "3. El modo SEMI te permite jugar un poquito, sólo cuando tu maquina acierta un disparo\n\n"
+                           "3. El modo SEMI te permite jugar un poquito, sólo cuando tu maquina acierta un disparo\n"
                            "4. El modo MANUAL Facil te permite jugar cada turno \n"
                            "5. El modo MANUAL Dificil te permite jugar cada turno, pero la maquina juega con ventaja \n"
                            "6. En el modo manual, si aciertas, vuelves a disparar \n"
