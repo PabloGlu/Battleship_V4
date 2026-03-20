@@ -21,7 +21,8 @@ Cada barco se guarda como objeto único de la clase Barco, permitiendo rastrear 
 
 ## Instalación y Uso
 1. Instala NumPy: `pip install numpy`
-2. Ejecuta: `python Battleship_V7_class.py`
+2. Instala tkinter: `pip install tkinter`
+2. Ejecuta: `main.pyw`
 3. Elige dificultad y modo al iniciar.
 4. Ingresa coordenadas como "34" (fila 3, columna 4).
 
